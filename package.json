@@ -1,23 +1,19 @@
 {
-  "name": "home_assistant_electron",
-  "version": "0.5.0",
-  "description": "Create Home Assistant Electron app ==================================",
+  "name": "jarvis_kiosk",
+  "version": "0.0.1",
+  "description": "Jarvis Kiosk",
   "main": "index.js",
   "scripts": {
     "test": "electron index.js",
-    "build": "build -c electron-builder.yml --mac",
-    "publish": "build -c electron-builder.yml --mac --win --publish onTagOrDraft"
+    "build": "build -c electron-builder.yml --linux",
+    "publish": "build -c electron-builder.yml --linux --publish onTagOrDraft"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/matthinc/HomeAssistantElectron.git"
-  },
-  "author": "Matthias Rupp <matthias.rupp@posteo.de> (https://matthi.net)",
-  "license": "ISC",
+  "author": "Haynie Research & Development LLC",
+  "license": "GNU GENERAL PUBLIC LICENSE",
   "bugs": {
-    "url": "https://github.com/matthinc/HomeAssistantElectron/issues"
+    "url": "https://github.com/Haynie-Research-and-Development/jarvis-kiosk/issues"
   },
-  "homepage": "https://github.com/matthinc/HomeAssistantElectron#readme",
+  "homepage": "https://github.com/Haynie-Research-and-Development/jarvis-kiosk",
   "dependencies": {
     "electron-json-storage": "^3.0.5",
     "electron-updater": "^1.16.0"

@@ -1,22 +1,8 @@
-appId: "com.example.homeassistant"
-productName: "Home Assistant"
+appId: "com.jarvis.kiosk"
+productName: "Jarvis Kiosk"
 files:
 - "src/**/*"
 - index.js
 - config.js
-- assets/icon.png
 - "node_modules/**/*"
 asar: false
-linux:
-  icon: assets/linux/
-mac:
-  icon: assets/icon.icns
-  target: zip
-win:
-  icon: assets/icon.ico
-  publish:
-  - "github"
-publish:
-  - provider: "github"
-  
-
