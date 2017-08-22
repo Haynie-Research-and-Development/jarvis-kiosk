@@ -1,0 +1,16 @@
+{
+  "name": "jarvis_kiosk",
+  "version": "0.0.1",
+  "description": "Jarvis Kiosk",
+  "main": "index.js",
+  "author": "Haynie Research & Development LLC",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "bugs": {
+    "url": "https://github.com/Haynie-Research-and-Development/jarvis-kiosk/issues"
+  },
+  "homepage": "https://github.com/Haynie-Research-and-Development/jarvis-kiosk",
+  "dependencies": {
+    "electron-json-storage": "^3.0.5",
+    "electron-updater": "^1.16.0"
+  }
+}
